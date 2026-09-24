@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head><title>Stationary</title></head>
+<body>
+  <h2>Stationary Management</h2>
+  <a href="#" id="submit-collect" onclick="alert('Please add product(s) to cart'); return false;">Submit to collect your Stationery &gt;&gt;&gt;</a>
+  <br><br>
+  <div id="tabs">
+    <a href="#" id="tab-photocopy" onclick="document.getElementById('photo-content').style.display='block'; return false;">Photocopy</a>
+  </div>
+  <div id="photo-content" style="display:none; margin-top:10px;">
+    <input type="button" id="save-request" value="Save Request" onclick="alert('No changes made');">
+  </div>
+  <br><br>
+  <button id="logout" onclick="document.body.innerHTML='<h1>Account Logout</h1>';">Logout</button>
+</body>
+</html>
